@@ -12,7 +12,7 @@ UITextField subclass with customizable insets (top, left, bottom, right) via IBI
 ```ruby
 source 'https://github.com/binaryloader/cocoapods-specs.git'
 
-pod 'BinaryloaderUI/InsetTextField'
+pod 'BinaryLoaderUI/InsetTextField'
 ```
 
 ## Related Repositories

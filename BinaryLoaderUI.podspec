@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'BinaryloaderUI'
+  s.name = 'BinaryLoaderUI'
   s.version = '1.0.2'
   s.license = { :type => 'MIT' }
   s.homepage = 'https://github.com/binaryloader/binaryloader-ui'
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.default_subspec = :none
 
   s.subspec 'InsetTextField' do |ss|
-    ss.source_files = 'BinaryloaderUI/Module/InsetTextField/Source/*.swift'
+    ss.source_files = 'BinaryLoaderUI/Module/InsetTextField/Source/*.swift'
   end
 end
