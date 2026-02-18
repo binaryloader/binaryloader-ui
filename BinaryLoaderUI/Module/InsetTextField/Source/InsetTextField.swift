@@ -2,7 +2,7 @@
 //  InsetTextField.swift
 //  InsetTextField
 //
-//  Created by binaryloader on 2020/10/11.
+//  Created by BinaryLoader on 10/11/20.
 //
 
 import UIKit
@@ -22,7 +22,12 @@ public class InsetTextField: UITextField {
     public var right: CGFloat = 0
     
     private var insets: UIEdgeInsets {
-        return UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
+        return UIEdgeInsets(
+            top: top,
+            left: left,
+            bottom: bottom,
+            right: right
+        )
     }
     
     private override init(frame: CGRect) {
@@ -33,7 +38,10 @@ public class InsetTextField: UITextField {
         super.init(coder: coder)
     }
     
-    public convenience init(frame: CGRect, insets: UIEdgeInsets) {
+    public convenience init(
+        frame: CGRect,
+        insets: UIEdgeInsets
+    ) {
         self.init(frame: frame)
         top = insets.top
         left = insets.left
