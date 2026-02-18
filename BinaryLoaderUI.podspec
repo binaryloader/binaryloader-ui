@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BinaryLoaderUI'
-  s.version = '1.0.3'
+  s.version = '1.0.4'
   s.license = { :type => 'MIT' }
   s.homepage = 'https://github.com/binaryloader/binaryloader-ui'
   s.authors = { 'binaryloader' => '152517454+binaryloader@users.noreply.github.com' }
